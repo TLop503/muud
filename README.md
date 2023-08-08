@@ -8,8 +8,8 @@ Currently Suported:
 Planned Support:
 - ReStructuredText
 - Markdown
-- HTML?
-- JSON?
+- HTML
+- JSON ? (probably not)
 - YAML?
 
 ### These are exteremly subject to change. 
