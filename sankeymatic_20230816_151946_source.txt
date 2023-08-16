@@ -1,0 +1,68 @@
+// SankeyMATIC diagram inputs - Saved: 8/16/2023, 3:19:46 PM
+// https://sankeymatic.com/build/
+
+// === Nodes and Flows ===
+
+// Enter Flows between Nodes, like this:
+//         Source [AMOUNT] Target
+
+MUUDI [1] Markdown
+// Use the controls below to customize
+// your diagram's appearance...
+
+-Markdown [1] -MUUDI
+-RST [1] -MUUDI
+-HTML [1] -MUUDI
+-YAML [1] -MUUDI
+
+-MUUDI [1] --Markdown
+-MUUDI [1] --RST
+-MUUDI [1] --HTML
+-MUUDI [1] --YAML
+-MUUDI [1] --JSON
+
+// === Settings ===
+
+size w 600
+  h 600
+margin l 12
+  r 12
+  t 18
+  b 20
+bg color #ffffff
+  transparent N
+node w 9
+  h 7
+  spacing 85
+  border 0
+  theme a
+  color #888888
+  opacity 1
+flow curvature 0.5
+  inheritfrom outside-in
+  color #999999
+  opacity 0.45
+layout order automatic
+  justifyorigins N
+  justifyends N
+  reversegraph N
+  attachincompletesto nearest
+labels color #000000
+  highlight 0.55
+  fontface sans-serif
+labelname appears Y
+  size 16
+  weight 400
+labelvalue appears Y
+  fullprecision Y
+labelposition first before
+  breakpoint 4
+value format ',.'
+  prefix ''
+  suffix ''
+themeoffset a 9
+  b 0
+  c 0
+  d 0
+meta mentionsankeymatic Y
+  listimbalances Y
