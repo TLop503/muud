@@ -6,7 +6,6 @@ Currently Suported:
 - Nothing
 
 Planned Support:
-- [M.U.U.D.I.](#muudi-markupupdowndown-internal)
 - ReStructuredText
 - Markdown
 - HTML
