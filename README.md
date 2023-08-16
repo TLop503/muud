@@ -15,6 +15,6 @@ Planned Support:
 ### These are extremely subject to change. 
 
 ## Work so Far:
-Note that unless listed above these are untested. Implemented is on top, planned on bottom
+Note that unless listed above these are untested. Implemented is on top, planned on bottom. Note MUUDI is the internal markup language used as an agnostic middleman.
 
 ![image](https://github.com/TLop503/muud/assets/43734061/9af769e6-2557-4999-a3a0-72d09ff7c065)
