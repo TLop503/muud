@@ -1,5 +1,7 @@
 """Muudi JSON generator
-MuudiJson is a simple json template that is used as an agnostic go-between when generating documents."""
+MuudiJson is a simple json template that is used as an agnostic go-between when generating documents.
+Documnentation and disambiguation can be found in the muudiJson.md file in the top level of this repo.
+"""
 
 
 import logging

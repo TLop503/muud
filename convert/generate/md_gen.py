@@ -1,15 +1,13 @@
-import logging
-
-logger = logging.getLogger(__name__)
+"""Class for generating markdown files. Currently does not use double-space newlines."""
 
 class Markdown:
     def __init__(self, filename):
         self.filename = filename + ".md"
         self.doc = []
-    
+
     def __str__(self):
         return "\n".join(self.doc)
-    
+
     def print(self):
         print(str(self))
 
