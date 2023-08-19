@@ -3,13 +3,12 @@ import json
 
 import generate.md_gen as md_gen
 
+# eventually once argparse is implemented this will be updated to take paramaters.
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 
-data = None
-
-
+#does this need to be a class? More research needed.
 class Converter:
     def convert(file_path):
         # instatiate the markdown generator:
@@ -22,7 +21,7 @@ class Converter:
         # convert the document:
         for item in data:
             """The key is the type of element, the value is the content of the element.
-            Translations for keys can be found in muudiJson.py. in the top level of this repo."""
+            Translations for keys can be found in muudiJson.py in the top level of this repo."""
             for key, value in item.items():
                 if key == ";pa":
                     md.paragraph(value)
